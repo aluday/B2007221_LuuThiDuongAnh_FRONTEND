@@ -6,7 +6,11 @@ const routes = [
         name: 'contactbook',
         component: ContactBook,
     },
-    
+    { 
+        path: "/:pathMatch(.*)*", 
+        name: "notfound", 
+        component: () => import("@/views/NotFound.vue"), 
+    },
     // { 
     //     path: "/contacts/:id", 
     //     name: "contact.edit", component: () => import("@/views/ContactEdit.vue"), 
