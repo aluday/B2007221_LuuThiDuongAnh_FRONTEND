@@ -28,7 +28,7 @@ export default {
                 type="button" 
                 @click="submit"
             >
-                <i class="fas fa-search"></i> Tìm kiếm
+            <i class="fa fa-search" ></i> Tìm kiếm
             </button>
         </div>
     </div>
