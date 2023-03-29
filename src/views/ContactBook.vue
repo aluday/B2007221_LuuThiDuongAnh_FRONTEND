@@ -16,6 +16,10 @@
                 </button>
                 <button class="btn btn-sm btn-success" @click="goToAddContact">
                     <i class="fas fa-plus"></i> Thêm mới
+                        <router-link :to="{
+                            name: 'contact.add',
+                        }">
+                    </router-link>
                 </button>
                 <button class="btn btn-sm btn-danger" @click="removeAllContacts">
                     <i class="fa fa-recycle"></i> Xóa tất cả

@@ -55,7 +55,11 @@
             </label>
         </div>
         <div class="form-group">
-            <button class="btn btn-primary">Lưu</button>
+            <button class="btn btn-primary"
+                type="button"
+                @click="submitContact"
+            >   Lưu
+            </button>
             <button
                 v-if="contactLocal._id"
                 type="button"
